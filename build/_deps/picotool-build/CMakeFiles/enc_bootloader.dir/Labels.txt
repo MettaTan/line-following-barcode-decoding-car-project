@@ -1,0 +1,13 @@
+# Target labels
+ enc_bootloader
+# Source files and their labels
+/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/CMakeFiles/enc_bootloader
+/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/CMakeFiles/enc_bootloader.rule
+/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/CMakeFiles/enc_bootloader-complete.rule
+/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-build.rule
+/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-configure.rule
+/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-download.rule
+/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-install.rule
+/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-mkdir.rule
+/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-patch.rule
+/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-update.rule

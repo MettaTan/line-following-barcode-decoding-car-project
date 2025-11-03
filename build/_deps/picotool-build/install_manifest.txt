@@ -1,0 +1,7 @@
+/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool/picotool
+/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool/picotoolTargets.cmake
+/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool/picotoolTargets-release.cmake
+/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool/picotoolConfig.cmake
+/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool/picotoolConfigVersion.cmake
+/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool/enc_bootloader.elf
+/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool/enc_bootloader_mbedtls.elf

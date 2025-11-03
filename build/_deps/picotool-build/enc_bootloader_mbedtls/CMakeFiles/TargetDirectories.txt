@@ -1,0 +1,2 @@
+/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/edit_cache.dir
+/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles/rebuild_cache.dir

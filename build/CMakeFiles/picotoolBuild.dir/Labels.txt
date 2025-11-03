@@ -1,0 +1,14 @@
+# Target labels
+ picotoolBuild
+# Source files and their labels
+/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles/picotoolBuild
+/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles/picotoolBuild.rule
+/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles/picotoolBuild-complete.rule
+/Users/metta/pico-examples/build/embedded-proj/build/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule
+/Users/metta/pico-examples/build/embedded-proj/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule
+/Users/metta/pico-examples/build/embedded-proj/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule
+/Users/metta/pico-examples/build/embedded-proj/build/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule
+/Users/metta/pico-examples/build/embedded-proj/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule
+/Users/metta/pico-examples/build/embedded-proj/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule
+/Users/metta/pico-examples/build/embedded-proj/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule
+/Users/metta/pico-examples/build/embedded-proj/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule
