@@ -42,25 +42,28 @@
 #define LF_BASE_SPEED_PCT  32.0f  // forward base speed for LF (30–45 good)
 #define LF_TURN_PCT        28.0f  // max turn contribution (% of full scale)
 #define LF_KP              0.0035f// gain per ADC count (tune 0.003–0.006)
-#define LF_KD              0.0000f// small damping if needed (0.0006–0.0010)
+#define LF_KD              0.0006f// light derivative damping to reduce jitter
 #define LF_LOST_MS         450    // how long WHITE before we attempt recovery
 #define LF_RECOVER_PCT     22.0f  // spin speed during recovery
 
-#define DRIFT_PID_ENABLE    1     // 1 = encoder drift trim while LF runs
-#define DRIFT_KP            0.003f// lifted from your friend’s demo
-#define DRIFT_KI            0.00001f
-#define DRIFT_KD            0.0005f
-#define DRIFT_CORR_MAX     20.0f  // limit drift trim to ±20% speed
-
 // --- Anti-jitter knobs for LF ---
 #define LF_ERR_DEADBAND     25      // ADC counts around threshold to ignore tiny noise
-#define IR_EMA_ALPHA        0.20f    // 0..1 (higher = snappier, more jitter). Try 0.15–0.25
-#define LF_U_SMOOTH_ALPHA   0.25f    // smooth the steering command u
-#define SLEW_PCT_PER_TICK    4.0f    // max % change per loop for each wheel (slew limiter)
+#define IR_EMA_ALPHA        0.18f    // 0..1 (higher = snappier, more jitter). Try 0.15–0.25
+#define LF_U_SMOOTH_ALPHA   0.18f    // smooth the steering command u
+#define SLEW_PCT_PER_TICK    3.0f    // max % change per loop for each wheel (slew limiter)
+#define MIN_WHEEL_PCT       18.0f    // torque floor
+
+// --- NEW: White-reverse assist (helps mid-curve when sensor slips onto WHITE) ---
+#define WHITE_REV_ENABLE         1
+#define WHITE_REV_MIN_MS        80     // start reverse assist after this much WHITE
+#define WHITE_REV_MAX_MS       300     // stop reverse assist if WHITE exceeds this (then normal logic resumes)
+#define WHITE_REV_PCT          20.0f   // reverse base speed (%)
+#define WHITE_REV_TURN_PCT     30.0f   // turning authority while reversing (%)
+#define WHITE_REV_SLEW          4.0f   // allow slightly bigger steps when reversing
 
 // -------------------- Barcode capture --------------------
-#define BARCODE_IDLE_TIMEOUT_MS   1200
-#define MAX_BARS                  32
+#define BARCODE_IDLE_TIMEOUT_MS   1500
+#define MAX_BARS                  64
 #define MIN_SEPARATION_RATIO      1.35f
 
 // Editable reference patterns (your sheets)
@@ -139,8 +142,8 @@ static const char* match_pattern(const char *bits) {
 }
 
 // -------------------- LF smoothing state --------------------
-static float ir_raw_ema = 0.0f;
-static float u_filt     = 0.0f;
+static float ir_raw_ema   = 0.0f;
+static float u_filt       = 0.0f;
 static float left_cmd_pct = 0.0f, right_cmd_pct = 0.0f;
 
 // -------------------- IR thresholding (for LF telemetry only) --------------------
@@ -161,7 +164,7 @@ int main(void) {
     stdio_init_all();
     sleep_ms(1200);
 
-    printf("\n=== LF on GP26(ADC0) + BARCODE on GP13(D0) ===\n");
+    printf("\n=== LF on GP26(ADC0) + BARCODE on GP13(D0) — with WHITE-REVERSE assist ===\n");
 
     // ---- Line-follow analog (ADC0) ----
     irsens_init(LF_ADC_GPIO);
@@ -210,7 +213,7 @@ int main(void) {
     barcode_capture_reset();
 
     // ---- Drift PID init ----
-    PID drift; pid_init(&drift, DRIFT_KP, DRIFT_KI, DRIFT_KD, -DRIFT_CORR_MAX, +DRIFT_CORR_MAX);
+    PID drift; pid_init(&drift, 0.003f, 0.00001f, 0.0005f, -20.0f, +20.0f);
     (void)drift; // silence unused if DRIFT disabled by macro
 
     while (true) {
@@ -253,15 +256,16 @@ int main(void) {
             // Smooth analog
             ir_raw_ema = (1.0f - IR_EMA_ALPHA) * ir_raw_ema + IR_EMA_ALPHA * (float)ir_raw;
 
+            // Error relative to threshold
             int32_t err = (int32_t)(ir_raw_ema) - (int32_t)threshold;
 
             // deadband around edge
             if (err > -LF_ERR_DEADBAND && err < LF_ERR_DEADBAND) err = 0;
 
             // PD
-            static int32_t prev_err = 0;
-            int32_t derr = err - prev_err; 
-            prev_err = err;
+            static int32_t prev_err_pd = 0;
+            int32_t derr = err - prev_err_pd; 
+            prev_err_pd = err;
 
             float u = LF_KP * (float)err + LF_KD * (float)derr;   // steer ~[-1,+1]
             if (u >  1.0f) u =  1.0f;
@@ -270,8 +274,9 @@ int main(void) {
             // smooth steering
             u_filt = (1.0f - LF_U_SMOOTH_ALPHA) * u_filt + LF_U_SMOOTH_ALPHA * u;
 
-            float base = LF_BASE_SPEED_PCT;
-            float turn = LF_TURN_PCT * u_filt;
+            // --- track WHITE streak time ---
+            static uint32_t lf_white_ms = 0;
+            if (ir_raw < threshold) lf_white_ms += SAMPLE_IR_MS; else lf_white_ms = 0;
 
             // Optional: encoder drift trim (fade when turning)
             float drift_trim_pct = 0.0f;
@@ -286,30 +291,57 @@ int main(void) {
             }
             #endif
 
-            float target_left  = base - turn + drift_trim_pct;
-            float target_right = base + turn - drift_trim_pct;
+            // --------- WHITE-REVERSE assist ---------
+#if WHITE_REV_ENABLE
+            bool do_white_rev = (lf_white_ms >= WHITE_REV_MIN_MS && lf_white_ms <= WHITE_REV_MAX_MS);
+#else
+            bool do_white_rev = false;
+#endif
 
-            // keep wheels turning
-            if (target_left  < 18.0f) target_left  = 18.0f;
-            if (target_right < 18.0f) target_right = 18.0f;
+            if (do_white_rev) {
+                // Reverse while turning back toward the line.
+                // In reverse, invert steering mapping so it arcs inward.
+                float turn = WHITE_REV_TURN_PCT * u_filt;
+                float target_left  = -WHITE_REV_PCT - turn + drift_trim_pct; // note minus base
+                float target_right = -WHITE_REV_PCT + turn - drift_trim_pct;
 
-            // slew limiter
-            float max_step = SLEW_PCT_PER_TICK;
-            if (target_left  > left_cmd_pct  + max_step) target_left  = left_cmd_pct  + max_step;
-            if (target_left  < left_cmd_pct  - max_step) target_left  = left_cmd_pct  - max_step;
-            if (target_right > right_cmd_pct + max_step) target_right = right_cmd_pct + max_step;
-            if (target_right < right_cmd_pct - max_step) target_right = right_cmd_pct - max_step;
+                // floors are irrelevant in reverse; still slew-limit to avoid jerks
+                float max_step = WHITE_REV_SLEW;
+                if (target_left  > left_cmd_pct  + max_step) target_left  = left_cmd_pct  + max_step;
+                if (target_left  < left_cmd_pct  - max_step) target_left  = left_cmd_pct  - max_step;
+                if (target_right > right_cmd_pct + max_step) target_right = right_cmd_pct + max_step;
+                if (target_right < right_cmd_pct - max_step) target_right = right_cmd_pct - max_step;
 
-            left_cmd_pct  = target_left;
-            right_cmd_pct = target_right;
+                left_cmd_pct  = target_left;
+                right_cmd_pct = target_right;
 
-            // lost-line: long WHITE => recovery spin
-            static uint32_t lf_white_ms = 0;
-            if (ir_raw < threshold) lf_white_ms += SAMPLE_IR_MS; else lf_white_ms = 0;
-
-            if (lf_white_ms > LF_LOST_MS) {
+                motor_set_speed(left_cmd_pct/100.0f, right_cmd_pct/100.0f);
+            }
+            else if (lf_white_ms > LF_LOST_MS) {
+                // long WHITE -> recovery spin
                 motor_set_speed(LF_RECOVER_PCT/100.0f, -LF_RECOVER_PCT/100.0f);
             } else {
+                // normal forward LF
+                float base = LF_BASE_SPEED_PCT;
+                float turn = LF_TURN_PCT * u_filt;
+
+                float target_left  = base - turn + drift_trim_pct;
+                float target_right = base + turn - drift_trim_pct;
+
+                // keep wheels turning
+                if (target_left  < MIN_WHEEL_PCT) target_left  = MIN_WHEEL_PCT;
+                if (target_right < MIN_WHEEL_PCT) target_right = MIN_WHEEL_PCT;
+
+                // slew limiter
+                float max_step = SLEW_PCT_PER_TICK;
+                if (target_left  > left_cmd_pct  + max_step) target_left  = left_cmd_pct  + max_step;
+                if (target_left  < left_cmd_pct  - max_step) target_left  = left_cmd_pct  - max_step;
+                if (target_right > right_cmd_pct + max_step) target_right = right_cmd_pct + max_step;
+                if (target_right < right_cmd_pct - max_step) target_right = right_cmd_pct - max_step;
+
+                left_cmd_pct  = target_left;
+                right_cmd_pct = target_right;
+
                 motor_set_speed(left_cmd_pct/100.0f, right_cmd_pct/100.0f);
             }
 #else
