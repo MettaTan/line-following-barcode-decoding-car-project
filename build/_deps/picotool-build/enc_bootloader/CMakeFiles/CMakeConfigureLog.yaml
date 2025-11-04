@@ -51,10 +51,6 @@ events:
       ENV{PATH}:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Users/metta/.local/share/mamba/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
@@ -139,10 +135,6 @@ events:
       ENV{PATH}:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Users/metta/.local/share/mamba/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
@@ -190,10 +182,6 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Users/metta/.local/share/mamba/condabin"
@@ -312,10 +300,6 @@ events:
       ENV{PATH}:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Users/metta/.local/share/mamba/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
@@ -377,10 +361,6 @@ events:
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Users/metta/.local/share/mamba/condabin"
@@ -446,10 +426,6 @@ events:
       ENV{PATH}:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Users/metta/.local/share/mamba/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
@@ -511,10 +487,6 @@ events:
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Users/metta/.local/share/mamba/condabin"
@@ -580,10 +552,6 @@ events:
       ENV{PATH}:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Users/metta/.local/share/mamba/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
@@ -645,10 +613,6 @@ events:
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Users/metta/.local/share/mamba/condabin"
@@ -733,10 +697,6 @@ events:
       ENV{PATH}:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Users/metta/.local/share/mamba/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
@@ -817,10 +777,6 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Users/metta/.local/share/mamba/condabin"
@@ -905,10 +861,6 @@ events:
       ENV{PATH}:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Users/metta/.local/share/mamba/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
@@ -989,10 +941,6 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Users/metta/.local/share/mamba/condabin"
@@ -1077,10 +1025,6 @@ events:
       ENV{PATH}:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Users/metta/.local/share/mamba/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
@@ -1133,10 +1077,6 @@ events:
       ENV{PATH}:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Users/metta/.local/share/mamba/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
@@ -1184,10 +1124,6 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Users/metta/.local/share/mamba/condabin"
@@ -1289,10 +1225,6 @@ events:
       ENV{PATH}:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Users/metta/.local/share/mamba/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
@@ -1388,10 +1320,6 @@ events:
       ENV{PATH}:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Users/metta/.local/share/mamba/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
@@ -1422,8 +1350,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-cHkZIJ"
-      binary: "/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-cHkZIJ"
+      source: "/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-7YL21x"
+      binary: "/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-7YL21x"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1435,20 +1363,20 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-cHkZIJ'
+        Change Dir: '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-7YL21x'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_1c6c8/fast
-        gmake[7]: Entering directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-cHkZIJ'
-        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_1c6c8.dir/build.make CMakeFiles/cmTC_1c6c8.dir/build
-        gmake[8]: Entering directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-cHkZIJ'
-        Building C object CMakeFiles/cmTC_1c6c8.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_1c6c8.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_1c6c8.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_1c6c8.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_2ea11/fast
+        gmake[7]: Entering directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-7YL21x'
+        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_2ea11.dir/build.make CMakeFiles/cmTC_2ea11.dir/build
+        gmake[8]: Entering directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-7YL21x'
+        Building C object CMakeFiles/cmTC_2ea11.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_2ea11.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_2ea11.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_2ea11.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Apple clang version 16.0.0 (clang-1600.0.26.4)
         Target: arm64-apple-darwin25.1.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.1 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-cHkZIJ -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_1c6c8.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_1c6c8.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -c-isystem /opt/homebrew/include/SDL2 -c-isystem . -cxx-isystem /opt/homebrew/include/SDL2 -cxx-isystem . -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-cHkZIJ -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1c6c8.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.1 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-7YL21x -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_2ea11.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_2ea11.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -c-isystem /opt/homebrew/include/SDL2 -c-isystem . -cxx-isystem /opt/homebrew/include/SDL2 -cxx-isystem . -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-7YL21x -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_2ea11.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 16.0.0 (clang-1600.0.26.4) default target arm64-apple-darwin25.1.0
         ignoring nonexistent directory "/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
@@ -1462,13 +1390,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_1c6c8
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c6c8.dir/link.txt --verbose=1
+        Linking C executable cmTC_2ea11
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ea11.dir/link.txt --verbose=1
         Apple clang version 16.0.0 (clang-1600.0.26.4)
         Target: arm64-apple-darwin25.1.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.1.0 15.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_1c6c8 -L/opt/homebrew/lib -L. -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_1c6c8.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.1.0 15.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_2ea11 -L/opt/homebrew/lib -L. -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2ea11.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1115.7.3
         BUILD 07:38:57 Oct  4 2024
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -1482,9 +1410,9 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_1c6c8.dir/CMakeCCompilerABI.c.o -o cmTC_1c6c8
-        gmake[8]: Leaving directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-cHkZIJ'
-        gmake[7]: Leaving directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-cHkZIJ'
+        /usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_2ea11.dir/CMakeCCompilerABI.c.o -o cmTC_2ea11
+        gmake[8]: Leaving directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-7YL21x'
+        gmake[7]: Leaving directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-7YL21x'
         
       exitCode: 0
   -
@@ -1530,20 +1458,20 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-cHkZIJ']
+        ignore line: [Change Dir: '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-7YL21x']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_1c6c8/fast]
-        ignore line: [gmake[7]: Entering directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-cHkZIJ']
-        ignore line: [/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_1c6c8.dir/build.make CMakeFiles/cmTC_1c6c8.dir/build]
-        ignore line: [gmake[8]: Entering directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-cHkZIJ']
-        ignore line: [Building C object CMakeFiles/cmTC_1c6c8.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_1c6c8.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_1c6c8.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_1c6c8.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_2ea11/fast]
+        ignore line: [gmake[7]: Entering directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-7YL21x']
+        ignore line: [/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_2ea11.dir/build.make CMakeFiles/cmTC_2ea11.dir/build]
+        ignore line: [gmake[8]: Entering directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-7YL21x']
+        ignore line: [Building C object CMakeFiles/cmTC_2ea11.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_2ea11.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_2ea11.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_2ea11.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.4)]
         ignore line: [Target: arm64-apple-darwin25.1.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.1 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-cHkZIJ -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_1c6c8.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_1c6c8.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -c-isystem /opt/homebrew/include/SDL2 -c-isystem . -cxx-isystem /opt/homebrew/include/SDL2 -cxx-isystem . -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-cHkZIJ -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1c6c8.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.1 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-7YL21x -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_2ea11.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_2ea11.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -c-isystem /opt/homebrew/include/SDL2 -c-isystem . -cxx-isystem /opt/homebrew/include/SDL2 -cxx-isystem . -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-7YL21x -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_2ea11.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.4) default target arm64-apple-darwin25.1.0]
         ignore line: [ignoring nonexistent directory "/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
@@ -1557,13 +1485,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_1c6c8]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c6c8.dir/link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_2ea11]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ea11.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.4)]
         ignore line: [Target: arm64-apple-darwin25.1.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.1.0 15.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_1c6c8 -L/opt/homebrew/lib -L. -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_1c6c8.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.1.0 15.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_2ea11 -L/opt/homebrew/lib -L. -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2ea11.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1580,14 +1508,14 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_1c6c8] ==> ignore
+          arg [cmTC_2ea11] ==> ignore
           arg [-L/opt/homebrew/lib] ==> dir [/opt/homebrew/lib]
           arg [-L.] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_1c6c8.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_2ea11.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
         linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
@@ -1632,8 +1560,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-VspKE8"
-      binary: "/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-VspKE8"
+      source: "/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-KavVGt"
+      binary: "/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-KavVGt"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1646,21 +1574,21 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-VspKE8'
+        Change Dir: '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-KavVGt'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_3c5df/fast
-        gmake[7]: Entering directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-VspKE8'
-        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_3c5df.dir/build.make CMakeFiles/cmTC_3c5df.dir/build
-        gmake[8]: Entering directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-VspKE8'
-        Building CXX object CMakeFiles/cmTC_3c5df.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_3c5df.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_3c5df.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_3c5df.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_cad86/fast
+        gmake[7]: Entering directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-KavVGt'
+        /opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_cad86.dir/build.make CMakeFiles/cmTC_cad86.dir/build
+        gmake[8]: Entering directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-KavVGt'
+        Building CXX object CMakeFiles/cmTC_cad86.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_cad86.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_cad86.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_cad86.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 16.0.0 (clang-1600.0.26.4)
         Target: arm64-apple-darwin25.1.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.1 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-VspKE8 -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_3c5df.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_3c5df.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -c-isystem /opt/homebrew/include/SDL2 -c-isystem . -cxx-isystem /opt/homebrew/include/SDL2 -cxx-isystem . -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-VspKE8 -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3c5df.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.1 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-KavVGt -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_cad86.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_cad86.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -c-isystem /opt/homebrew/include/SDL2 -c-isystem . -cxx-isystem /opt/homebrew/include/SDL2 -cxx-isystem . -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-KavVGt -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_cad86.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 16.0.0 (clang-1600.0.26.4) default target arm64-apple-darwin25.1.0
         ignoring nonexistent directory "/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
@@ -1675,13 +1603,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_3c5df
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c5df.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_cad86
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cad86.dir/link.txt --verbose=1
         Apple clang version 16.0.0 (clang-1600.0.26.4)
         Target: arm64-apple-darwin25.1.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.1.0 15.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_3c5df -L/opt/homebrew/lib -L. -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_3c5df.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.1.0 15.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_cad86 -L/opt/homebrew/lib -L. -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cad86.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1115.7.3
         BUILD 07:38:57 Oct  4 2024
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -1695,9 +1623,9 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_3c5df.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3c5df
-        gmake[8]: Leaving directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-VspKE8'
-        gmake[7]: Leaving directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-VspKE8'
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_cad86.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_cad86
+        gmake[8]: Leaving directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-KavVGt'
+        gmake[7]: Leaving directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-KavVGt'
         
       exitCode: 0
   -
@@ -1745,21 +1673,21 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-VspKE8']
+        ignore line: [Change Dir: '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-KavVGt']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_3c5df/fast]
-        ignore line: [gmake[7]: Entering directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-VspKE8']
-        ignore line: [/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_3c5df.dir/build.make CMakeFiles/cmTC_3c5df.dir/build]
-        ignore line: [gmake[8]: Entering directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-VspKE8']
-        ignore line: [Building CXX object CMakeFiles/cmTC_3c5df.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_3c5df.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_3c5df.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_3c5df.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /opt/homebrew/bin/gmake -f Makefile cmTC_cad86/fast]
+        ignore line: [gmake[7]: Entering directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-KavVGt']
+        ignore line: [/opt/homebrew/bin/gmake  -f CMakeFiles/cmTC_cad86.dir/build.make CMakeFiles/cmTC_cad86.dir/build]
+        ignore line: [gmake[8]: Entering directory '/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-KavVGt']
+        ignore line: [Building CXX object CMakeFiles/cmTC_cad86.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_cad86.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_cad86.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_cad86.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.4)]
         ignore line: [Target: arm64-apple-darwin25.1.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.1 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-VspKE8 -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_3c5df.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_3c5df.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -c-isystem /opt/homebrew/include/SDL2 -c-isystem . -cxx-isystem /opt/homebrew/include/SDL2 -cxx-isystem . -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-VspKE8 -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3c5df.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.1 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1115.7.3 -v -fcoverage-compilation-dir=/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-KavVGt -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/16 -dependency-file CMakeFiles/cmTC_cad86.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_cad86.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -c-isystem /opt/homebrew/include/SDL2 -c-isystem . -cxx-isystem /opt/homebrew/include/SDL2 -cxx-isystem . -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/16/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/metta/pico-examples/build/embedded-proj/build/_deps/picotool-build/enc_bootloader/CMakeFiles/CMakeScratch/TryCompile-KavVGt -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_cad86.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 16.0.0 (clang-1600.0.26.4) default target arm64-apple-darwin25.1.0]
         ignore line: [ignoring nonexistent directory "/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
@@ -1774,13 +1702,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_3c5df]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c5df.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_cad86]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cad86.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 16.0.0 (clang-1600.0.26.4)]
         ignore line: [Target: arm64-apple-darwin25.1.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.1.0 15.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_3c5df -L/opt/homebrew/lib -L. -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_3c5df.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.1.0 15.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_cad86 -L/opt/homebrew/lib -L. -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_cad86.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1797,14 +1725,14 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_3c5df] ==> ignore
+          arg [cmTC_cad86] ==> ignore
           arg [-L/opt/homebrew/lib] ==> dir [/opt/homebrew/lib]
           arg [-L.] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_3c5df.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_cad86.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/16/lib/darwin/libclang_rt.osx.a]

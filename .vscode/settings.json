@@ -1,6 +1,7 @@
 {
   "files.associations": {
     "*.ejs": "html",
-    "line.h": "c"
+    "line.h": "c",
+    "stdbool.h": "c"
   }
 }

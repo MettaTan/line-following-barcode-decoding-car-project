@@ -51,10 +51,6 @@ events:
       ENV{PATH}:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Users/metta/.local/share/mamba/condabin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
@@ -131,10 +127,6 @@ events:
     found: "/usr/bin/install_name_tool"
     search_context:
       ENV{PATH}:
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
-        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Users/metta/.local/share/mamba/condabin"

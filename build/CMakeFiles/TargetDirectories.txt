@@ -1,7 +1,4 @@
-/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles/encoder_demo.dir
-/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles/picotoolForceReconfigure.dir
-/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles/picotoolBuild.dir
-/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles/week6_demo.dir
+/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles/week10_integration.dir
 /Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles/edit_cache.dir
 /Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles/rebuild_cache.dir
 /Users/metta/pico-examples/build/embedded-proj/build/pico-sdk/CMakeFiles/edit_cache.dir

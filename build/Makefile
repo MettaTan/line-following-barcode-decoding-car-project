@@ -117,56 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named encoder_demo
+# Target rules for targets named week10_integration
 
 # Build rule for target.
-encoder_demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 encoder_demo
-.PHONY : encoder_demo
+week10_integration: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 week10_integration
+.PHONY : week10_integration
 
 # fast build rule for target.
-encoder_demo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/build
-.PHONY : encoder_demo/fast
-
-#=============================================================================
-# Target rules for targets named picotoolForceReconfigure
-
-# Build rule for target.
-picotoolForceReconfigure: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 picotoolForceReconfigure
-.PHONY : picotoolForceReconfigure
-
-# fast build rule for target.
-picotoolForceReconfigure/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/picotoolForceReconfigure.dir/build.make CMakeFiles/picotoolForceReconfigure.dir/build
-.PHONY : picotoolForceReconfigure/fast
-
-#=============================================================================
-# Target rules for targets named picotoolBuild
-
-# Build rule for target.
-picotoolBuild: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 picotoolBuild
-.PHONY : picotoolBuild
-
-# fast build rule for target.
-picotoolBuild/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/picotoolBuild.dir/build.make CMakeFiles/picotoolBuild.dir/build
-.PHONY : picotoolBuild/fast
-
-#=============================================================================
-# Target rules for targets named week6_demo
-
-# Build rule for target.
-week6_demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 week6_demo
-.PHONY : week6_demo
-
-# fast build rule for target.
-week6_demo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/build
-.PHONY : week6_demo/fast
+week10_integration/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/build
+.PHONY : week10_integration/fast
 
 #=============================================================================
 # Target rules for targets named bs2_default
@@ -251,8 +212,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: Users/metta/pic
 
 # target to build an object file
 Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
@@ -260,8 +220,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: Users/metta/pic
 
 # target to preprocess a source file
 Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
@@ -269,8 +228,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: Users/metta/pic
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o: Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
@@ -278,8 +236,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o: Users/metta/pico-sd
 
 # target to build an object file
 Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
@@ -287,8 +244,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: Users/metta/pico-sd
 
 # target to preprocess a source file
 Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
@@ -296,8 +252,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: Users/metta/pico-sd
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o: Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
@@ -305,8 +260,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o: Users/metta/pico-sd
 
 # target to build an object file
 Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
@@ -314,8 +268,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: Users/metta/pico-sd
 
 # target to preprocess a source file
 Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
@@ -323,8 +276,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: Users/metta/pico-sd
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o: Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
@@ -332,8 +284,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o: Users/metta/pico
 
 # target to build an object file
 Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
@@ -341,8 +292,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: Users/metta/pico
 
 # target to preprocess a source file
 Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
@@ -350,8 +300,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: Users/metta/pico
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o: Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
@@ -359,8 +308,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o: Users/metta/pico-sd
 
 # target to build an object file
 Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
@@ -368,8 +316,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: Users/metta/pico-sd
 
 # target to preprocess a source file
 Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
@@ -377,8 +324,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: Users/metta/pico-sd
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o: Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
@@ -386,8 +332,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o: Users/metta/pico-
 
 # target to build an object file
 Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
@@ -395,8 +340,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: Users/metta/pico-
 
 # target to preprocess a source file
 Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
@@ -404,8 +348,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: Users/metta/pico-
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o: Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
@@ -413,8 +356,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o: Users/metta/pico-sd
 
 # target to build an object file
 Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
@@ -422,8 +364,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: Users/metta/pico-sd
 
 # target to preprocess a source file
 Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
@@ -431,8 +372,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: Users/metta/pico-sd
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o: Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
@@ -440,8 +380,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o: Users/metta/p
 
 # target to build an object file
 Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
@@ -449,8 +388,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: Users/metta/p
 
 # target to preprocess a source file
 Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
@@ -458,8 +396,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: Users/metta/p
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o: Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
@@ -467,8 +404,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o: Users/metta/pico-sd
 
 # target to build an object file
 Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
@@ -476,8 +412,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: Users/metta/pico-sd
 
 # target to preprocess a source file
 Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
@@ -485,8 +420,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: Users/metta/pico-sd
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
@@ -494,8 +428,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: Users/metta/p
 
 # target to build an object file
 Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
@@ -503,8 +436,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: Users/metta/p
 
 # target to preprocess a source file
 Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
@@ -512,8 +444,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: Users/metta/p
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o: Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
@@ -521,8 +452,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o: Users/metta/p
 
 # target to build an object file
 Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
@@ -530,8 +460,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: Users/metta/p
 
 # target to preprocess a source file
 Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
@@ -539,8 +468,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: Users/metta/p
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.o: Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
@@ -548,8 +476,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.o: Users/metta/pic
 
 # target to build an object file
 Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.i: Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
@@ -557,8 +484,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.i: Users/metta/pic
 
 # target to preprocess a source file
 Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
 Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.s: Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
@@ -566,8 +492,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.s: Users/metta/pic
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
 Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o: Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
@@ -575,8 +500,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o: Users/metta/pico-sdk/li
 
 # target to build an object file
 Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 
 Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
@@ -584,8 +508,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: Users/metta/pico-sdk/li
 
 # target to preprocess a source file
 Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
 Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
@@ -593,8 +516,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: Users/metta/pico-sdk/li
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
 Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.o: Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.o
@@ -602,8 +524,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.o: Users/metta/pico-sdk/lib/tin
 
 # target to build an object file
 Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.o
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.o
 
 Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.i: Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.i
@@ -611,8 +532,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.i: Users/metta/pico-sdk/lib/tin
 
 # target to preprocess a source file
 Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
 Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.s: Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.s
@@ -620,8 +540,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.s: Users/metta/pico-sdk/lib/tin
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
 Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.o: Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
@@ -629,8 +548,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.o: Users/metta/pico-sdk
 
 # target to build an object file
 Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
 
 Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.i: Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
@@ -638,8 +556,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.i: Users/metta/pico-sdk
 
 # target to preprocess a source file
 Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
 Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.s: Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
@@ -647,8 +564,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.s: Users/metta/pico-sdk
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
 Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o: Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
@@ -656,8 +572,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o: U
 
 # target to build an object file
 Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
 
 Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
@@ -665,8 +580,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: U
 
 # target to preprocess a source file
 Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
 Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
@@ -674,8 +588,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: U
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
 Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o: Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
@@ -683,8 +596,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o: U
 
 # target to build an object file
 Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
 
 Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
@@ -692,8 +604,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: U
 
 # target to preprocess a source file
 Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
 Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
@@ -701,8 +612,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: U
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
 Users/metta/pico-sdk/lib/tinyusb/src/tusb.o: Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.o
@@ -710,8 +620,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/tusb.o: Users/metta/pico-sdk/lib/tinyusb/sr
 
 # target to build an object file
 Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.o
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.o
 
 Users/metta/pico-sdk/lib/tinyusb/src/tusb.i: Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.i
@@ -719,8 +628,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/tusb.i: Users/metta/pico-sdk/lib/tinyusb/sr
 
 # target to preprocess a source file
 Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.i
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.i
 
 Users/metta/pico-sdk/lib/tinyusb/src/tusb.s: Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.s
@@ -728,8 +636,7 @@ Users/metta/pico-sdk/lib/tinyusb/src/tusb.s: Users/metta/pico-sdk/lib/tinyusb/sr
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.s
 .PHONY : Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.s
 
 Users/metta/pico-sdk/src/common/hardware_claim/claim.o: Users/metta/pico-sdk/src/common/hardware_claim/claim.c.o
@@ -737,8 +644,7 @@ Users/metta/pico-sdk/src/common/hardware_claim/claim.o: Users/metta/pico-sdk/src
 
 # target to build an object file
 Users/metta/pico-sdk/src/common/hardware_claim/claim.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/hardware_claim/claim.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/hardware_claim/claim.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/hardware_claim/claim.c.o
 .PHONY : Users/metta/pico-sdk/src/common/hardware_claim/claim.c.o
 
 Users/metta/pico-sdk/src/common/hardware_claim/claim.i: Users/metta/pico-sdk/src/common/hardware_claim/claim.c.i
@@ -746,8 +652,7 @@ Users/metta/pico-sdk/src/common/hardware_claim/claim.i: Users/metta/pico-sdk/src
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/common/hardware_claim/claim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/hardware_claim/claim.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/hardware_claim/claim.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/hardware_claim/claim.c.i
 .PHONY : Users/metta/pico-sdk/src/common/hardware_claim/claim.c.i
 
 Users/metta/pico-sdk/src/common/hardware_claim/claim.s: Users/metta/pico-sdk/src/common/hardware_claim/claim.c.s
@@ -755,8 +660,7 @@ Users/metta/pico-sdk/src/common/hardware_claim/claim.s: Users/metta/pico-sdk/src
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/common/hardware_claim/claim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/hardware_claim/claim.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/hardware_claim/claim.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/hardware_claim/claim.c.s
 .PHONY : Users/metta/pico-sdk/src/common/hardware_claim/claim.c.s
 
 Users/metta/pico-sdk/src/common/pico_sync/critical_section.o: Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.o
@@ -764,8 +668,7 @@ Users/metta/pico-sdk/src/common/pico_sync/critical_section.o: Users/metta/pico-s
 
 # target to build an object file
 Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.o
 .PHONY : Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.o
 
 Users/metta/pico-sdk/src/common/pico_sync/critical_section.i: Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -773,8 +676,7 @@ Users/metta/pico-sdk/src/common/pico_sync/critical_section.i: Users/metta/pico-s
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 Users/metta/pico-sdk/src/common/pico_sync/critical_section.s: Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -782,8 +684,7 @@ Users/metta/pico-sdk/src/common/pico_sync/critical_section.s: Users/metta/pico-s
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 Users/metta/pico-sdk/src/common/pico_sync/lock_core.o: Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.o
@@ -791,8 +692,7 @@ Users/metta/pico-sdk/src/common/pico_sync/lock_core.o: Users/metta/pico-sdk/src/
 
 # target to build an object file
 Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.o
 .PHONY : Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.o
 
 Users/metta/pico-sdk/src/common/pico_sync/lock_core.i: Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -800,8 +700,7 @@ Users/metta/pico-sdk/src/common/pico_sync/lock_core.i: Users/metta/pico-sdk/src/
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 Users/metta/pico-sdk/src/common/pico_sync/lock_core.s: Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -809,8 +708,7 @@ Users/metta/pico-sdk/src/common/pico_sync/lock_core.s: Users/metta/pico-sdk/src/
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 Users/metta/pico-sdk/src/common/pico_sync/mutex.o: Users/metta/pico-sdk/src/common/pico_sync/mutex.c.o
@@ -818,8 +716,7 @@ Users/metta/pico-sdk/src/common/pico_sync/mutex.o: Users/metta/pico-sdk/src/comm
 
 # target to build an object file
 Users/metta/pico-sdk/src/common/pico_sync/mutex.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/mutex.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/mutex.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/mutex.c.o
 .PHONY : Users/metta/pico-sdk/src/common/pico_sync/mutex.c.o
 
 Users/metta/pico-sdk/src/common/pico_sync/mutex.i: Users/metta/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -827,8 +724,7 @@ Users/metta/pico-sdk/src/common/pico_sync/mutex.i: Users/metta/pico-sdk/src/comm
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/common/pico_sync/mutex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/mutex.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/mutex.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : Users/metta/pico-sdk/src/common/pico_sync/mutex.c.i
 
 Users/metta/pico-sdk/src/common/pico_sync/mutex.s: Users/metta/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -836,8 +732,7 @@ Users/metta/pico-sdk/src/common/pico_sync/mutex.s: Users/metta/pico-sdk/src/comm
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/common/pico_sync/mutex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/mutex.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/mutex.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : Users/metta/pico-sdk/src/common/pico_sync/mutex.c.s
 
 Users/metta/pico-sdk/src/common/pico_sync/sem.o: Users/metta/pico-sdk/src/common/pico_sync/sem.c.o
@@ -845,8 +740,7 @@ Users/metta/pico-sdk/src/common/pico_sync/sem.o: Users/metta/pico-sdk/src/common
 
 # target to build an object file
 Users/metta/pico-sdk/src/common/pico_sync/sem.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/sem.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/sem.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/sem.c.o
 .PHONY : Users/metta/pico-sdk/src/common/pico_sync/sem.c.o
 
 Users/metta/pico-sdk/src/common/pico_sync/sem.i: Users/metta/pico-sdk/src/common/pico_sync/sem.c.i
@@ -854,8 +748,7 @@ Users/metta/pico-sdk/src/common/pico_sync/sem.i: Users/metta/pico-sdk/src/common
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/common/pico_sync/sem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/sem.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/sem.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : Users/metta/pico-sdk/src/common/pico_sync/sem.c.i
 
 Users/metta/pico-sdk/src/common/pico_sync/sem.s: Users/metta/pico-sdk/src/common/pico_sync/sem.c.s
@@ -863,8 +756,7 @@ Users/metta/pico-sdk/src/common/pico_sync/sem.s: Users/metta/pico-sdk/src/common
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/common/pico_sync/sem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/sem.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_sync/sem.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : Users/metta/pico-sdk/src/common/pico_sync/sem.c.s
 
 Users/metta/pico-sdk/src/common/pico_time/time.o: Users/metta/pico-sdk/src/common/pico_time/time.c.o
@@ -872,8 +764,7 @@ Users/metta/pico-sdk/src/common/pico_time/time.o: Users/metta/pico-sdk/src/commo
 
 # target to build an object file
 Users/metta/pico-sdk/src/common/pico_time/time.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_time/time.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_time/time.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/time.c.o
 .PHONY : Users/metta/pico-sdk/src/common/pico_time/time.c.o
 
 Users/metta/pico-sdk/src/common/pico_time/time.i: Users/metta/pico-sdk/src/common/pico_time/time.c.i
@@ -881,8 +772,7 @@ Users/metta/pico-sdk/src/common/pico_time/time.i: Users/metta/pico-sdk/src/commo
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/common/pico_time/time.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_time/time.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_time/time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : Users/metta/pico-sdk/src/common/pico_time/time.c.i
 
 Users/metta/pico-sdk/src/common/pico_time/time.s: Users/metta/pico-sdk/src/common/pico_time/time.c.s
@@ -890,8 +780,7 @@ Users/metta/pico-sdk/src/common/pico_time/time.s: Users/metta/pico-sdk/src/commo
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/common/pico_time/time.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_time/time.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_time/time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : Users/metta/pico-sdk/src/common/pico_time/time.c.s
 
 Users/metta/pico-sdk/src/common/pico_time/timeout_helper.o: Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.o
@@ -899,8 +788,7 @@ Users/metta/pico-sdk/src/common/pico_time/timeout_helper.o: Users/metta/pico-sdk
 
 # target to build an object file
 Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.o
 .PHONY : Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.o
 
 Users/metta/pico-sdk/src/common/pico_time/timeout_helper.i: Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -908,8 +796,7 @@ Users/metta/pico-sdk/src/common/pico_time/timeout_helper.i: Users/metta/pico-sdk
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 Users/metta/pico-sdk/src/common/pico_time/timeout_helper.s: Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -917,8 +804,7 @@ Users/metta/pico-sdk/src/common/pico_time/timeout_helper.s: Users/metta/pico-sdk
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 Users/metta/pico-sdk/src/common/pico_util/datetime.o: Users/metta/pico-sdk/src/common/pico_util/datetime.c.o
@@ -926,8 +812,7 @@ Users/metta/pico-sdk/src/common/pico_util/datetime.o: Users/metta/pico-sdk/src/c
 
 # target to build an object file
 Users/metta/pico-sdk/src/common/pico_util/datetime.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_util/datetime.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_util/datetime.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/datetime.c.o
 .PHONY : Users/metta/pico-sdk/src/common/pico_util/datetime.c.o
 
 Users/metta/pico-sdk/src/common/pico_util/datetime.i: Users/metta/pico-sdk/src/common/pico_util/datetime.c.i
@@ -935,8 +820,7 @@ Users/metta/pico-sdk/src/common/pico_util/datetime.i: Users/metta/pico-sdk/src/c
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/common/pico_util/datetime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_util/datetime.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_util/datetime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : Users/metta/pico-sdk/src/common/pico_util/datetime.c.i
 
 Users/metta/pico-sdk/src/common/pico_util/datetime.s: Users/metta/pico-sdk/src/common/pico_util/datetime.c.s
@@ -944,8 +828,7 @@ Users/metta/pico-sdk/src/common/pico_util/datetime.s: Users/metta/pico-sdk/src/c
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/common/pico_util/datetime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_util/datetime.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_util/datetime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : Users/metta/pico-sdk/src/common/pico_util/datetime.c.s
 
 Users/metta/pico-sdk/src/common/pico_util/pheap.o: Users/metta/pico-sdk/src/common/pico_util/pheap.c.o
@@ -953,8 +836,7 @@ Users/metta/pico-sdk/src/common/pico_util/pheap.o: Users/metta/pico-sdk/src/comm
 
 # target to build an object file
 Users/metta/pico-sdk/src/common/pico_util/pheap.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_util/pheap.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_util/pheap.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/pheap.c.o
 .PHONY : Users/metta/pico-sdk/src/common/pico_util/pheap.c.o
 
 Users/metta/pico-sdk/src/common/pico_util/pheap.i: Users/metta/pico-sdk/src/common/pico_util/pheap.c.i
@@ -962,8 +844,7 @@ Users/metta/pico-sdk/src/common/pico_util/pheap.i: Users/metta/pico-sdk/src/comm
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/common/pico_util/pheap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_util/pheap.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_util/pheap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : Users/metta/pico-sdk/src/common/pico_util/pheap.c.i
 
 Users/metta/pico-sdk/src/common/pico_util/pheap.s: Users/metta/pico-sdk/src/common/pico_util/pheap.c.s
@@ -971,8 +852,7 @@ Users/metta/pico-sdk/src/common/pico_util/pheap.s: Users/metta/pico-sdk/src/comm
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/common/pico_util/pheap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_util/pheap.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_util/pheap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : Users/metta/pico-sdk/src/common/pico_util/pheap.c.s
 
 Users/metta/pico-sdk/src/common/pico_util/queue.o: Users/metta/pico-sdk/src/common/pico_util/queue.c.o
@@ -980,8 +860,7 @@ Users/metta/pico-sdk/src/common/pico_util/queue.o: Users/metta/pico-sdk/src/comm
 
 # target to build an object file
 Users/metta/pico-sdk/src/common/pico_util/queue.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_util/queue.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_util/queue.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/queue.c.o
 .PHONY : Users/metta/pico-sdk/src/common/pico_util/queue.c.o
 
 Users/metta/pico-sdk/src/common/pico_util/queue.i: Users/metta/pico-sdk/src/common/pico_util/queue.c.i
@@ -989,8 +868,7 @@ Users/metta/pico-sdk/src/common/pico_util/queue.i: Users/metta/pico-sdk/src/comm
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/common/pico_util/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_util/queue.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_util/queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : Users/metta/pico-sdk/src/common/pico_util/queue.c.i
 
 Users/metta/pico-sdk/src/common/pico_util/queue.s: Users/metta/pico-sdk/src/common/pico_util/queue.c.s
@@ -998,8 +876,7 @@ Users/metta/pico-sdk/src/common/pico_util/queue.s: Users/metta/pico-sdk/src/comm
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/common/pico_util/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/common/pico_util/queue.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/common/pico_util/queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : Users/metta/pico-sdk/src/common/pico_util/queue.c.s
 
 Users/metta/pico-sdk/src/rp2040/pico_platform/platform.o: Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.o
@@ -1007,8 +884,7 @@ Users/metta/pico-sdk/src/rp2040/pico_platform/platform.o: Users/metta/pico-sdk/s
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.o
 
 Users/metta/pico-sdk/src/rp2040/pico_platform/platform.i: Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.i
@@ -1016,8 +892,7 @@ Users/metta/pico-sdk/src/rp2040/pico_platform/platform.i: Users/metta/pico-sdk/s
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.i
 
 Users/metta/pico-sdk/src/rp2040/pico_platform/platform.s: Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.s
@@ -1025,8 +900,7 @@ Users/metta/pico-sdk/src/rp2040/pico_platform/platform.s: Users/metta/pico-sdk/s
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.s
 
 Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.o: Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
@@ -1034,7 +908,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.o: Users/metta/pico-sdk/src
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
 
 Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.i: Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
@@ -1042,7 +916,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.i: Users/metta/pico-sdk/src
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 
 Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.s: Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
@@ -1050,7 +924,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.s: Users/metta/pico-sdk/src
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
 Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o: Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
@@ -1058,8 +932,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o: Users/metta/
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
 
 Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
@@ -1067,8 +940,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: Users/metta/
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
 
 Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
@@ -1076,8 +948,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: Users/metta/
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
 
 Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
@@ -1085,8 +956,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: Users/metta/pico-s
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
 
 Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -1094,8 +964,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: Users/metta/pico-s
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -1103,8 +972,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: Users/metta/pico-s
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 Users/metta/pico-sdk/src/rp2_common/hardware_divider/divider.o: Users/metta/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
@@ -1112,8 +980,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_divider/divider.o: Users/metta/pico
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/hardware_divider/divider.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
 
 Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.o: Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
@@ -1121,8 +988,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.o: Users/metta/pico-sdk
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
 
 Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.i: Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
@@ -1130,8 +996,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.i: Users/metta/pico-sdk
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
 Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.s: Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
@@ -1139,8 +1004,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.s: Users/metta/pico-sdk
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
@@ -1148,8 +1012,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: Users/metta/pico-sdk/s
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 
 Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -1157,8 +1020,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: Users/metta/pico-sdk/s
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -1166,17 +1028,39 @@ Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: Users/metta/pico-sdk/s
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+
+Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.o: Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+.PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.o
+
+# target to build an object file
+Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+.PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+
+Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.i
+
+# target to preprocess a source file
+Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+.PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+
+Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.s
+
+# target to generate assembly for a file
+Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+.PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
 Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.o: Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.o
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
 
 Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.i: Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -1184,8 +1068,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.i: Users/metta/pico-sdk/src
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.s: Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -1193,8 +1076,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.s: Users/metta/pico-sdk/src
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
@@ -1202,8 +1084,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: Users/mett
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 
 Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.o: Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
@@ -1211,8 +1092,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.o: Users/metta/pico-sdk/src
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
 
 Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.i: Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -1220,8 +1100,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.i: Users/metta/pico-sdk/src
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.s: Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -1229,8 +1108,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.s: Users/metta/pico-sdk/src
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.o: Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
@@ -1238,8 +1116,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.o: Users/metta/pico-sdk/s
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
 
 Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.i: Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -1247,8 +1124,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.i: Users/metta/pico-sdk/s
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.s: Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -1256,8 +1132,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.s: Users/metta/pico-sdk/s
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o: Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
@@ -1265,8 +1140,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o: Us
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
 
 Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
@@ -1274,8 +1148,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: Us
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
 
 Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
@@ -1283,8 +1156,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: Us
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
 
 Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.o: Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
@@ -1292,8 +1164,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.o: Users/metta/pico-sdk
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
 
 Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
@@ -1301,8 +1172,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: Users/metta/pico-sdk
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
 
 Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
@@ -1310,8 +1180,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: Users/metta/pico-sdk
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
 
 Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.o: Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
@@ -1319,8 +1188,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.o: Users/metta/pico-sdk
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
 
 Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.i: Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -1328,8 +1196,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.i: Users/metta/pico-sdk
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.s: Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -1337,8 +1204,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.s: Users/metta/pico-sdk
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.o: Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
@@ -1346,8 +1212,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.o: Users/metta/pico-sdk/s
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
 
 Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.i: Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -1355,8 +1220,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.i: Users/metta/pico-sdk/s
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.s: Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -1364,8 +1228,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.s: Users/metta/pico-sdk/s
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
@@ -1373,8 +1236,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: Users/metta/pico-sdk/s
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
 
 Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -1382,8 +1244,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: Users/metta/pico-sdk/s
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -1391,8 +1252,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: Users/metta/pico-sdk/s
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
@@ -1400,8 +1260,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: Users/metta/pi
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
 
 Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -1409,8 +1268,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: Users/metta/pi
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -1418,8 +1276,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: Users/metta/pi
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o: Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
@@ -1427,8 +1284,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o: Users/metta/
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
 
 Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i: Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
@@ -1436,8 +1292,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i: Users/metta/
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
 
 Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s: Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
@@ -1445,8 +1300,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s: Users/metta/
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
 
 Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
@@ -1454,8 +1308,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: Users/metta/pico-sdk/s
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
 
 Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -1463,8 +1316,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: Users/metta/pico-sdk/s
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -1472,8 +1324,7 @@ Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: Users/metta/pico-sdk/s
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.o: Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
@@ -1481,8 +1332,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.o: Users/metta/pico-sdk/s
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.i: Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
@@ -1490,8 +1340,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.i: Users/metta/pico-sdk/s
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.s: Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
@@ -1499,8 +1348,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.s: Users/metta/pico-sdk/s
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: Users/metta/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
@@ -1508,8 +1356,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: Users/metta/pi
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
@@ -1517,8 +1364,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: Users/metta/pico-sdk
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -1526,8 +1372,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: Users/metta/pico-sdk
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -1535,8 +1380,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: Users/metta/pico-sdk
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o: Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
@@ -1544,8 +1388,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o: Users/metta/pic
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
@@ -1553,8 +1396,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: Users/metta/pic
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
@@ -1562,8 +1404,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: Users/metta/pic
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o: Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
@@ -1571,8 +1412,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o: User
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i: Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
@@ -1580,8 +1420,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i: User
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s: Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
@@ -1589,8 +1428,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s: User
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_crt0/crt0.o: Users/metta/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
@@ -1598,8 +1436,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_crt0/crt0.o: Users/metta/pico-sdk/src/r
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o: Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
@@ -1607,8 +1444,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o: Users/metta/p
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
@@ -1616,8 +1452,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: Users/metta/p
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
@@ -1625,8 +1460,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: Users/metta/p
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o: Users/metta/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
@@ -1634,8 +1468,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o: Users/metta
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o: Users/metta/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
@@ -1643,8 +1476,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o: Users/met
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o: Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
@@ -1652,8 +1484,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o: Users/
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i: Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
@@ -1661,8 +1492,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i: Users/
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s: Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
@@ -1670,8 +1500,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s: Users/
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.o: Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.o
@@ -1679,8 +1508,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.o: Users/metta/pico-
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.i: Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -1688,8 +1516,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.i: Users/metta/pico-
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.s: Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -1697,8 +1524,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.s: Users/metta/pico-
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o: Users/metta/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
@@ -1706,8 +1532,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o: Use
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o: Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
@@ -1715,8 +1540,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp204
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
@@ -1724,8 +1548,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp204
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
@@ -1733,8 +1556,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp204
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.o: Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.o
@@ -1742,8 +1564,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.o: Users/metta/pico-sdk/src
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.i: Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.i
@@ -1751,8 +1572,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.i: Users/metta/pico-sdk/src
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.s: Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.s
@@ -1760,8 +1580,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.s: Users/metta/pico-sdk/src
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o: Users/metta/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
@@ -1769,8 +1588,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o: Users/metta
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o: Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
@@ -1778,8 +1596,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o: Users/me
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i: Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
@@ -1787,8 +1604,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i: Users/me
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s: Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
@@ -1796,8 +1612,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s: Users/me
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.o: Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.o
@@ -1805,8 +1620,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.o: Users/metta/pico-sd
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.i: Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -1814,8 +1628,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.i: Users/metta/pico-sd
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.s: Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -1823,8 +1636,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.s: Users/metta/pico-sd
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o: Users/metta/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
@@ -1832,8 +1644,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o: Users
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o: Users/metta/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
@@ -1841,8 +1652,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o: Users
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.o: Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
@@ -1850,8 +1660,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.o: Users/metta/pico-sdk/s
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.i: Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
@@ -1859,8 +1668,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.i: Users/metta/pico-sdk/s
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.s: Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
@@ -1868,8 +1676,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.s: Users/metta/pico-sdk/s
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o: Users/metta/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
@@ -1877,8 +1684,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o: Users/metta/pi
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.o: Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
@@ -1886,8 +1692,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.o: Users/metta/p
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.i: Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.i
@@ -1895,8 +1700,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.i: Users/metta/p
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.s: Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.s
@@ -1904,8 +1708,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.s: Users/metta/p
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.o: Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
@@ -1913,8 +1716,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.o: Users/metta/pic
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
@@ -1922,8 +1724,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: Users/metta/pic
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
@@ -1931,8 +1732,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: Users/metta/pic
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.o: Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.o
@@ -1940,8 +1740,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.o: Users/metta/pico-sdk/s
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.i: Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -1949,8 +1748,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.i: Users/metta/pico-sdk/s
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.s: Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -1958,8 +1756,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.s: Users/metta/pico-sdk/s
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.o: Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
@@ -1967,8 +1764,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.o: Users/metta/pico-sdk
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.i: Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -1976,8 +1772,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.i: Users/metta/pico-sdk
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.s: Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -1985,8 +1780,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.s: Users/metta/pico-sdk
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o: Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
@@ -1994,8 +1788,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o: Users/mett
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
@@ -2003,8 +1796,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: Users/mett
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
@@ -2012,8 +1804,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: Users/mett
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o: Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
@@ -2021,8 +1812,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o: Use
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
@@ -2030,8 +1820,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: Use
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s: Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
@@ -2039,8 +1828,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s: Use
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o: Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
@@ -2048,8 +1836,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i: Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
@@ -2057,8 +1844,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s: Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
@@ -2066,8 +1852,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o: Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
@@ -2075,8 +1860,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_in
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i: Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
@@ -2084,8 +1868,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_in
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s: Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
@@ -2093,8 +1876,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_in
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.o: Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
@@ -2102,8 +1884,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.o: Users/metta/pico-sdk/src
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.i: Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -2111,8 +1892,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.i: Users/metta/pico-sdk/src
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.s: Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -2120,8 +1900,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.s: Users/metta/pico-sdk/src
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o: Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
@@ -2129,8 +1908,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o: Users/mett
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
@@ -2138,8 +1916,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: Users/mett
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
@@ -2147,8 +1924,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: Users/mett
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o: Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
@@ -2156,8 +1932,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o: Users/metta/pico
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
@@ -2165,8 +1940,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: Users/metta/pico
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
@@ -2174,8 +1948,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: Users/metta/pico
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o: Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
@@ -2183,8 +1956,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o: User
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
@@ -2192,8 +1964,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: User
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
@@ -2201,8 +1972,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: User
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
@@ -2210,8 +1980,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: Users/metta/pico-sdk/s
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -2219,8 +1988,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: Users/metta/pico-sdk/s
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -2228,8 +1996,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: Users/metta/pico-sdk/s
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o: Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
@@ -2237,8 +2004,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o: Users/metta/pico
 
 # target to build an object file
 Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
 
 Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
@@ -2246,8 +2012,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: Users/metta/pico
 
 # target to preprocess a source file
 Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 
 Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
@@ -2255,8 +2020,7 @@ Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: Users/metta/pico
 
 # target to generate assembly for a file
 Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
 encoder.o: encoder.c.o
@@ -2264,8 +2028,7 @@ encoder.o: encoder.c.o
 
 # target to build an object file
 encoder.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/encoder.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/encoder.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/encoder.c.o
 .PHONY : encoder.c.o
 
 encoder.i: encoder.c.i
@@ -2273,8 +2036,7 @@ encoder.i: encoder.c.i
 
 # target to preprocess a source file
 encoder.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/encoder.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/encoder.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/encoder.c.i
 .PHONY : encoder.c.i
 
 encoder.s: encoder.c.s
@@ -2282,16 +2044,63 @@ encoder.s: encoder.c.s
 
 # target to generate assembly for a file
 encoder.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/encoder.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/encoder.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/encoder.c.s
 .PHONY : encoder.c.s
+
+imu.o: imu.c.o
+.PHONY : imu.o
+
+# target to build an object file
+imu.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/imu.c.o
+.PHONY : imu.c.o
+
+imu.i: imu.c.i
+.PHONY : imu.i
+
+# target to preprocess a source file
+imu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/imu.c.i
+.PHONY : imu.c.i
+
+imu.s: imu.c.s
+.PHONY : imu.s
+
+# target to generate assembly for a file
+imu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/imu.c.s
+.PHONY : imu.c.s
+
+line.o: line.c.o
+.PHONY : line.o
+
+# target to build an object file
+line.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/line.c.o
+.PHONY : line.c.o
+
+line.i: line.c.i
+.PHONY : line.i
+
+# target to preprocess a source file
+line.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/line.c.i
+.PHONY : line.c.i
+
+line.s: line.c.s
+.PHONY : line.s
+
+# target to generate assembly for a file
+line.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/line.c.s
+.PHONY : line.c.s
 
 main.o: main.c.o
 .PHONY : main.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -2299,7 +2108,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -2307,32 +2116,32 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/week6_demo.dir/build.make CMakeFiles/week6_demo.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/main.c.s
 .PHONY : main.c.s
 
-main_encoder_test.o: main_encoder_test.c.o
-.PHONY : main_encoder_test.o
+motor.o: motor.c.o
+.PHONY : motor.o
 
 # target to build an object file
-main_encoder_test.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/main_encoder_test.c.o
-.PHONY : main_encoder_test.c.o
+motor.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/motor.c.o
+.PHONY : motor.c.o
 
-main_encoder_test.i: main_encoder_test.c.i
-.PHONY : main_encoder_test.i
+motor.i: motor.c.i
+.PHONY : motor.i
 
 # target to preprocess a source file
-main_encoder_test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/main_encoder_test.c.i
-.PHONY : main_encoder_test.c.i
+motor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/motor.c.i
+.PHONY : motor.c.i
 
-main_encoder_test.s: main_encoder_test.c.s
-.PHONY : main_encoder_test.s
+motor.s: motor.c.s
+.PHONY : motor.s
 
 # target to generate assembly for a file
-main_encoder_test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/encoder_demo.dir/build.make CMakeFiles/encoder_demo.dir/main_encoder_test.c.s
-.PHONY : main_encoder_test.c.s
+motor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/week10_integration.dir/build.make CMakeFiles/week10_integration.dir/motor.c.s
+.PHONY : motor.c.s
 
 # Help Target
 help:
@@ -2345,13 +2154,10 @@ help:
 	@echo "... bs2_default_bin"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... pico_status_led_ws2812_pio_h"
-	@echo "... picotoolBuild"
-	@echo "... picotoolForceReconfigure"
 	@echo "... pioasmBuild"
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
-	@echo "... encoder_demo"
-	@echo "... week6_demo"
+	@echo "... week10_integration"
 	@echo "... Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o"
 	@echo "... Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
@@ -2455,6 +2261,9 @@ help:
 	@echo "... Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.o"
 	@echo "... Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
+	@echo "... Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.o"
+	@echo "... Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.i"
+	@echo "... Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.s"
 	@echo "... Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.o"
 	@echo "... Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.s"
@@ -2579,12 +2388,18 @@ help:
 	@echo "... encoder.o"
 	@echo "... encoder.i"
 	@echo "... encoder.s"
+	@echo "... imu.o"
+	@echo "... imu.i"
+	@echo "... imu.s"
+	@echo "... line.o"
+	@echo "... line.i"
+	@echo "... line.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... main_encoder_test.o"
-	@echo "... main_encoder_test.i"
-	@echo "... main_encoder_test.s"
+	@echo "... motor.o"
+	@echo "... motor.i"
+	@echo "... motor.s"
 .PHONY : help
 
 
