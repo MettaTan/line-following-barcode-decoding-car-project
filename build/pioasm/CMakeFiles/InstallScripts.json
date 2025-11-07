@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/metta/pico-examples/build/embedded-proj/build/pioasm/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

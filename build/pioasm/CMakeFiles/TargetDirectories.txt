@@ -1,0 +1,7 @@
+/Users/metta/pico-examples/build/embedded-proj/build/pioasm/CMakeFiles/pioasm.dir
+/Users/metta/pico-examples/build/embedded-proj/build/pioasm/CMakeFiles/edit_cache.dir
+/Users/metta/pico-examples/build/embedded-proj/build/pioasm/CMakeFiles/rebuild_cache.dir
+/Users/metta/pico-examples/build/embedded-proj/build/pioasm/CMakeFiles/list_install_components.dir
+/Users/metta/pico-examples/build/embedded-proj/build/pioasm/CMakeFiles/install.dir
+/Users/metta/pico-examples/build/embedded-proj/build/pioasm/CMakeFiles/install/local.dir
+/Users/metta/pico-examples/build/embedded-proj/build/pioasm/CMakeFiles/install/strip.dir

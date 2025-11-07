@@ -63,4 +63,11 @@ CMakeFiles/week10_integration.dir/encoder.c.o: \
  /Users/metta/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
  /Users/metta/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
  /Users/metta/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
- /Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
+ /Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/math.h \
+ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+ /Users/metta/pico-examples/build/embedded-proj/mqtt_client.h

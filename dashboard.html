@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Telemetry Dashboard</title>
+<link rel="stylesheet" href="dashboard.css">
+<script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+</head>
+<body>
+<h1>MQTT Telemetry Dashboard</h1>
+<div id="status">Connecting...</div>
+
+<section>
+  <h2>Motion & IMU</h2>
+  <p>Speed: <span id="speedValue">--</span> m/s</p>
+  <p>Distance travelled: <span id="distValue">--</span></p>
+  <p>Raw IMU: 
+  Pitch <span id="raw_pitch">--°</span>, 
+  Roll <span id="raw_roll">--°</span>, 
+  Heading <span id="raw_heading">--°</span>
+  </p>
+  <p>Filtered IMU: 
+  Pitch <span id="filtered_pitch">--°</span>, 
+  Roll <span id="filtered_roll">--°</span>, 
+  Heading <span id="filtered_heading">--°</span>
+  </p>
+</section>
+
+<section>
+  <h2>Line Following + Barcode</h2>
+  <p>Barcode Command: <span id="barcodeValue">--</span></p>
+  <p>Current state: <span id="stateValue">--</span></p>
+  <p>Line events: <span id="lineEventValue">--</span> </p>
+</section>
+
+<section>
+  <h2>Obstacle Detection</h2>
+  <p>Obstacle Detected: <span id="obstacleDetectedValue">--</span></p>
+  <p>Distance: <span id="objdistValue">--</span> mm</p>
+  <p>Clearance path: <span id="clearValue">--</span> </p>
+  <p>Recovery status: <span id="recovstatusValue">--</span></p>
+  <p>Obstacle Width: <span id="ObstaclewidthValue">--</span> mm</p>
+  <p>Left Angle: <span id="leftAngleValue">--</span> °</p>
+  <p>Right Angle: <span id="rightAngleValue">--</span> °</p>
+</section>
+
+<script src="dashboard.js"></script>
+</body>
+</html>

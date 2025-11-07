@@ -1,5 +1,7 @@
 #include "encoder.h"
 #include "hardware/gpio.h"
+#include "math.h"
+#include "mqtt_client.h"
 
 static uint     enc_gpio[2]               = {0xFFFFFFFFu, 0xFFFFFFFFu};
 static volatile uint32_t enc_count[2]     = {0, 0};
@@ -45,3 +47,42 @@ void encoder_init_pair(uint left_gpio, uint right_gpio) {
 uint32_t encoder_get_count(enc_id_t id)     { return enc_count[id]; }
 uint32_t encoder_get_period_us(enc_id_t id) { return enc_period_us[id]; }
 void     encoder_reset(enc_id_t id)         { enc_count[id] = 0; enc_period_us[id] = 0; }
+
+
+// Getters for mqtt publishing 
+
+// Speed Getter
+float encoder_get_speed_rps(enc_id_t id) {
+    uint32_t per = encoder_get_period_us(id);
+    if (per == 0) return 0.f;
+    return (1e6f / (float)per) / (float)SLOTS_PER_REV;  // rev/s
+}
+
+float encoder_get_speed_mm_s(enc_id_t id, float wheel_diameter_mm) {
+    return encoder_get_speed_rps(id) * (float)(M_PI * wheel_diameter_mm);
+}
+
+// Distance Getter
+float encoder_get_distance_mm(enc_id_t id, float wheel_diameter_mm) {
+    return encoder_get_count(id) * (float)(M_PI * wheel_diameter_mm / SLOTS_PER_REV);
+}
+
+float encoder_get_average_distance_mm(float wheel_diameter_mm) {
+    float left = encoder_get_distance_mm(ENC_LEFT, wheel_diameter_mm);
+    float right = encoder_get_distance_mm(ENC_RIGHT, wheel_diameter_mm);
+    return (left + right) * 0.5f;
+}
+
+// Combined encoder data helper function
+EncoderData encoder_get_data(float wheel_diameter_mm) {
+    EncoderData data;
+
+    data.left_speed     = encoder_get_speed_mm_s(ENC_LEFT, wheel_diameter_mm);
+    data.right_speed    = encoder_get_speed_mm_s(ENC_RIGHT, wheel_diameter_mm);
+    data.left_distance  = encoder_get_distance_mm(ENC_LEFT, wheel_diameter_mm);
+    data.right_distance = encoder_get_distance_mm(ENC_RIGHT, wheel_diameter_mm);
+
+    data.avg_speed      = (data.left_speed + data.right_speed) * 0.5f;
+    data.avg_distance   = (data.left_distance + data.right_distance) * 0.5f;
+    return data;
+}

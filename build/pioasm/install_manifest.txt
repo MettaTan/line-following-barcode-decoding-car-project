@@ -1,0 +1,5 @@
+/Users/metta/pico-examples/build/embedded-proj/build/pioasm-install/pioasm/pioasm
+/Users/metta/pico-examples/build/embedded-proj/build/pioasm-install/pioasm/pioasmTargets.cmake
+/Users/metta/pico-examples/build/embedded-proj/build/pioasm-install/pioasm/pioasmTargets-release.cmake
+/Users/metta/pico-examples/build/embedded-proj/build/pioasm-install/pioasm/pioasmConfig.cmake
+/Users/metta/pico-examples/build/embedded-proj/build/pioasm-install/pioasm/pioasmConfigVersion.cmake
