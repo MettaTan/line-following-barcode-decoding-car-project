@@ -175,7 +175,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=week10_integration
+CMAKE_PROJECT_NAME:STATIC=barcode_test
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=
@@ -346,6 +346,15 @@ PICO_STDIO_USB:BOOL=OFF
 PIOASM_INSTALL_DIR:PATH=/Users/metta/pico-examples/build/embedded-proj/build/pioasm-install
 
 //Value Computed by CMake
+barcode_test_BINARY_DIR:STATIC=/Users/metta/pico-examples/build/embedded-proj/build
+
+//Value Computed by CMake
+barcode_test_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+barcode_test_SOURCE_DIR:STATIC=/Users/metta/pico-examples/build/embedded-proj
+
+//Value Computed by CMake
 pico_sdk_BINARY_DIR:STATIC=/Users/metta/pico-examples/build/embedded-proj/build/pico-sdk
 
 //Value Computed by CMake
@@ -362,15 +371,6 @@ picotool_INSTALL_DIR:PATH=/Users/metta/pico-examples/build/embedded-proj/build/_
 
 //The directory containing a CMake configuration file for pioasm.
 pioasm_DIR:PATH=pioasm_DIR-NOTFOUND
-
-//Value Computed by CMake
-week10_integration_BINARY_DIR:STATIC=/Users/metta/pico-examples/build/embedded-proj/build
-
-//Value Computed by CMake
-week10_integration_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-week10_integration_SOURCE_DIR:STATIC=/Users/metta/pico-examples/build/embedded-proj
 
 
 ########################

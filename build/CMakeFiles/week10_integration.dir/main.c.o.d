@@ -22,16 +22,15 @@ CMakeFiles/week10_integration.dir/main.c.o: \
  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h \
  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/math.h \
+ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
+ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
  /Users/metta/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
  /Users/metta/pico-sdk/src/common/pico_base_headers/include/pico.h \
  /Users/metta/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
  /Users/metta/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
  /Users/metta/pico-examples/build/embedded-proj/build/generated/pico_base/pico/version.h \
  /Users/metta/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
  /Users/metta/pico-examples/build/embedded-proj/build/generated/pico_base/pico/config_autogen.h \
@@ -74,78 +73,4 @@ CMakeFiles/week10_integration.dir/main.c.o: \
  /Users/metta/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
  /Users/metta/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
  /Users/metta/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
- /Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
- /Users/metta/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
- /Users/metta/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/adc.h \
- /Users/metta/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/adc.h \
- /Users/metta/pico-examples/build/embedded-proj/encoder.h \
- /Users/metta/pico-examples/build/embedded-proj/motor.h \
- /Users/metta/pico-examples/build/embedded-proj/imu.h \
- /Users/metta/pico-examples/build/embedded-proj/line.h \
- /Users/metta/pico-examples/build/embedded-proj/mqtt_client.h \
- /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h \
- /Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43.h \
- /Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_config.h \
- /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/include/cyw43_configport.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/netif.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/opt.h \
- /Users/metta/pico-examples/build/embedded-proj/lwipopts.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/debug.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/arch.h \
- /Users/metta/pico-sdk/src/rp2_common/pico_lwip/include/arch/cc.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/time.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_timeval.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/types.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/endian.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_endian.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/select.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_sigset.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/timespec.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_timespec.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_pthreadtypes.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/sched.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/types.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/time.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/time.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_time.h \
- /Users/metta/pico-sdk/src/rp2_common/pico_rand/include/pico/rand.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdlib.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/stdlib.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/alloca.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/inttypes.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/limits.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/syslimits.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/limits.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/syslimits.h \
- /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/ctype.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/err.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/ip_addr.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/def.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/ip4_addr.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/ip6_addr.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/def.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/pbuf.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/stats.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/mem.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/memp.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/priv/memp_std.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/priv/memp_priv.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/priv/mem_priv.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/dhcp.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/udp.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/ip.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/ip4.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/prot/ip4.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/ip6.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/prot/ip.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/prot/udp.h \
- /Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ll.h \
- /Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_country.h \
- /Users/metta/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h \
- /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/apps/mqtt.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/apps/mqtt_opts.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/prot/iana.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/dns.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/tcpip.h \
- /Users/metta/pico-sdk/lib/lwip/src/include/lwip/timeouts.h
+ /Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h

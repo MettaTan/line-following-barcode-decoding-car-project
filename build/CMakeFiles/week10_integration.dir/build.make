@@ -86,80 +86,10 @@ CMakeFiles/week10_integration.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/main.c.s"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-examples/build/embedded-proj/main.c -o CMakeFiles/week10_integration.dir/main.c.s
 
-CMakeFiles/week10_integration.dir/encoder.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/encoder.c.o: /Users/metta/pico-examples/build/embedded-proj/encoder.c
-CMakeFiles/week10_integration.dir/encoder.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/week10_integration.dir/encoder.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/encoder.c.o -MF CMakeFiles/week10_integration.dir/encoder.c.o.d -o CMakeFiles/week10_integration.dir/encoder.c.o -c /Users/metta/pico-examples/build/embedded-proj/encoder.c
-
-CMakeFiles/week10_integration.dir/encoder.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/encoder.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-examples/build/embedded-proj/encoder.c > CMakeFiles/week10_integration.dir/encoder.c.i
-
-CMakeFiles/week10_integration.dir/encoder.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/encoder.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-examples/build/embedded-proj/encoder.c -o CMakeFiles/week10_integration.dir/encoder.c.s
-
-CMakeFiles/week10_integration.dir/line.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/line.c.o: /Users/metta/pico-examples/build/embedded-proj/line.c
-CMakeFiles/week10_integration.dir/line.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/week10_integration.dir/line.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/line.c.o -MF CMakeFiles/week10_integration.dir/line.c.o.d -o CMakeFiles/week10_integration.dir/line.c.o -c /Users/metta/pico-examples/build/embedded-proj/line.c
-
-CMakeFiles/week10_integration.dir/line.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/line.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-examples/build/embedded-proj/line.c > CMakeFiles/week10_integration.dir/line.c.i
-
-CMakeFiles/week10_integration.dir/line.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/line.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-examples/build/embedded-proj/line.c -o CMakeFiles/week10_integration.dir/line.c.s
-
-CMakeFiles/week10_integration.dir/motor.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/motor.c.o: /Users/metta/pico-examples/build/embedded-proj/motor.c
-CMakeFiles/week10_integration.dir/motor.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/week10_integration.dir/motor.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/motor.c.o -MF CMakeFiles/week10_integration.dir/motor.c.o.d -o CMakeFiles/week10_integration.dir/motor.c.o -c /Users/metta/pico-examples/build/embedded-proj/motor.c
-
-CMakeFiles/week10_integration.dir/motor.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/motor.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-examples/build/embedded-proj/motor.c > CMakeFiles/week10_integration.dir/motor.c.i
-
-CMakeFiles/week10_integration.dir/motor.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/motor.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-examples/build/embedded-proj/motor.c -o CMakeFiles/week10_integration.dir/motor.c.s
-
-CMakeFiles/week10_integration.dir/imu.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/imu.c.o: /Users/metta/pico-examples/build/embedded-proj/imu.c
-CMakeFiles/week10_integration.dir/imu.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/week10_integration.dir/imu.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/imu.c.o -MF CMakeFiles/week10_integration.dir/imu.c.o.d -o CMakeFiles/week10_integration.dir/imu.c.o -c /Users/metta/pico-examples/build/embedded-proj/imu.c
-
-CMakeFiles/week10_integration.dir/imu.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/imu.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-examples/build/embedded-proj/imu.c > CMakeFiles/week10_integration.dir/imu.c.i
-
-CMakeFiles/week10_integration.dir/imu.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/imu.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-examples/build/embedded-proj/imu.c -o CMakeFiles/week10_integration.dir/imu.c.s
-
-CMakeFiles/week10_integration.dir/mqtt_pico.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/mqtt_pico.c.o: /Users/metta/pico-examples/build/embedded-proj/mqtt_pico.c
-CMakeFiles/week10_integration.dir/mqtt_pico.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/week10_integration.dir/mqtt_pico.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/mqtt_pico.c.o -MF CMakeFiles/week10_integration.dir/mqtt_pico.c.o.d -o CMakeFiles/week10_integration.dir/mqtt_pico.c.o -c /Users/metta/pico-examples/build/embedded-proj/mqtt_pico.c
-
-CMakeFiles/week10_integration.dir/mqtt_pico.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/mqtt_pico.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-examples/build/embedded-proj/mqtt_pico.c > CMakeFiles/week10_integration.dir/mqtt_pico.c.i
-
-CMakeFiles/week10_integration.dir/mqtt_pico.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/mqtt_pico.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-examples/build/embedded-proj/mqtt_pico.c -o CMakeFiles/week10_integration.dir/mqtt_pico.c.s
-
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -173,7 +103,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdli
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: /Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -c /Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -187,7 +117,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_g
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.o: /Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.o -c /Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.i: cmake_force
@@ -201,7 +131,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2040/pico_platform/
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_common/common.c.i: cmake_force
@@ -215,7 +145,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platf
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i: cmake_force
@@ -229,7 +159,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_platf
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/hardware_claim/claim.c.o: /Users/metta/pico-sdk/src/common/hardware_claim/claim.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/hardware_claim/claim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/hardware_claim/claim.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/hardware_claim/claim.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/hardware_claim/claim.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/hardware_claim/claim.c.o -c /Users/metta/pico-sdk/src/common/hardware_claim/claim.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/hardware_claim/claim.c.i: cmake_force
@@ -243,7 +173,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/hardware_claim
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: /Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -c /Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -257,7 +187,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_s
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -c /Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i: cmake_force
@@ -271,7 +201,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_s
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: /Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -c /Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -284,7 +214,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_i
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: /Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o   -c /Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -298,7 +228,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_i
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/sem.c.o: /Users/metta/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/sem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/sem.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/sem.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/sem.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/sem.c.o -c /Users/metta/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -312,7 +242,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/sem.
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.o: /Users/metta/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.o -c /Users/metta/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -326,7 +256,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/lock
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/mutex.c.o: /Users/metta/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/mutex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/mutex.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/mutex.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/mutex.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/mutex.c.o -c /Users/metta/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -340,7 +270,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/mute
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.o: /Users/metta/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.o -c /Users/metta/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -354,7 +284,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_sync/crit
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/time.c.o: /Users/metta/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/time.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/time.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/time.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/time.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/time.c.o -c /Users/metta/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -368,7 +298,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/time
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.o: /Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.o -c /Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -382,7 +312,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_time/time
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: /Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -c /Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -396,7 +326,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_t
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/datetime.c.o: /Users/metta/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/datetime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/datetime.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/datetime.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/datetime.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/datetime.c.o -c /Users/metta/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -410,7 +340,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/date
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/pheap.c.o: /Users/metta/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/pheap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/pheap.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/pheap.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/pheap.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/pheap.c.o -c /Users/metta/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -424,7 +354,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/phea
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/queue.c.o: /Users/metta/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/queue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/queue.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/queue.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/queue.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/queue.c.o -c /Users/metta/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -438,7 +368,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/common/pico_util/queu
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: /Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -c /Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -452,7 +382,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_u
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: /Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -c /Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -466,7 +396,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: /Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -c /Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -480,7 +410,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_p
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: /Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -c /Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -494,7 +424,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_v
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: /Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -c /Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -508,7 +438,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_w
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: /Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -c /Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i: cmake_force
@@ -522,7 +452,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_t
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -536,7 +466,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootr
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i: cmake_force
@@ -550,7 +480,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bootr
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -c /Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i: cmake_force
@@ -564,7 +494,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_b
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_flash/flash.c.i: cmake_force
@@ -578,7 +508,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_flash
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: /Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -c /Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -591,7 +521,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_x
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: /Users/metta/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_divider/divider.S.o   -c /Users/metta/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -605,7 +535,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_d
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -619,7 +549,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runti
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
@@ -633,7 +563,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runti
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
@@ -647,7 +577,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runti
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
@@ -660,7 +590,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_runti
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: /Users/metta/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o   -c /Users/metta/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -673,7 +603,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_bit_o
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: /Users/metta/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o   -c /Users/metta/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i: cmake_force
@@ -686,7 +616,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_divid
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: /Users/metta/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o   -c /Users/metta/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i: cmake_force
@@ -700,7 +630,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_doubl
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i: cmake_force
@@ -714,7 +644,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_doubl
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -727,7 +657,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_doubl
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: /Users/metta/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o   -c /Users/metta/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i: cmake_force
@@ -740,7 +670,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_doubl
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: /Users/metta/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o   -c /Users/metta/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -753,7 +683,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_int64
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: /Users/metta/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o   -c /Users/metta/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i: cmake_force
@@ -767,7 +697,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i: cmake_force
@@ -781,7 +711,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -794,7 +724,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: /Users/metta/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o   -c /Users/metta/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i: cmake_force
@@ -808,7 +738,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_float
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i: cmake_force
@@ -821,7 +751,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_mallo
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: /Users/metta/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o   -c /Users/metta/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -835,7 +765,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_mem_o
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i: cmake_force
@@ -849,7 +779,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_atomi
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -c /Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i: cmake_force
@@ -863,7 +793,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cxx_o
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i: cmake_force
@@ -877,7 +807,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stand
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -890,7 +820,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_print
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: /Users/metta/pico-sdk/src/rp2_common/pico_crt0/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building ASM object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o   -c /Users/metta/pico-sdk/src/rp2_common/pico_crt0/crt0.S
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
@@ -904,7 +834,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_crt0/
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i: cmake_force
@@ -918,7 +848,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_clib_
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -932,7 +862,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -946,7 +876,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -960,7 +890,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -974,7 +904,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdio
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -988,7 +918,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_uniqu
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -c /Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -1002,7 +932,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_f
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -c /Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
@@ -1016,7 +946,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_x
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -c /Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -1030,7 +960,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -c /Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -1044,7 +974,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/portable/
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.o -c /Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -1058,7 +988,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/us
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -c /Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -1072,7 +1002,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/device/us
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: /Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -c /Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -1086,7 +1016,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/aud
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -c /Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -1100,7 +1030,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/cdc
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: /Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -c /Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -1114,7 +1044,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -c /Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -1128,7 +1058,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/dfu
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: /Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -c /Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -1142,7 +1072,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/hid
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: /Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -c /Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -1156,7 +1086,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/mid
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: /Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -c /Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -1170,7 +1100,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/msc
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -c /Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -1184,7 +1114,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: /Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -c /Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -1198,7 +1128,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/net
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -c /Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -1212,7 +1142,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/usb
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: /Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -c /Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -1226,7 +1156,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/ven
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: /Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -c /Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -1240,7 +1170,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/vid
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.o: /Users/metta/pico-sdk/lib/tinyusb/src/tusb.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.o -c /Users/metta/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1254,7 +1184,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.s:
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -c /Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1268,7 +1198,7 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/common/tu
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/week10_integration.dir/flags.make
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1279,1512 +1209,9 @@ CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/r
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o: /Users/metta/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o -c /Users/metta/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_rand/rand.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_rand/rand.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_rand/rand.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_rand/rand.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_rand/rand.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_rand/rand.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_rand/rand.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_rand/rand.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_rand/rand.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_rand/rand.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_rand/rand.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/src/rp2_common/pico_rand/rand.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_rand/rand.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_rand/rand.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_rand/rand.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/src/rp2_common/pico_rand/rand.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_rand/rand.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/init.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/init.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/init.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/init.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/init.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/init.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/init.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/init.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/init.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/init.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/init.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/init.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/init.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/init.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/init.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/init.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/init.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/def.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/def.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/def.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/def.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/def.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/def.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/def.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/def.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/def.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/def.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/def.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/def.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/def.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/def.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/def.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/def.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/def.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/dns.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/dns.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/dns.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/dns.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/dns.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/dns.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/dns.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/dns.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/dns.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/dns.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/dns.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/dns.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/dns.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/dns.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/dns.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/dns.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/dns.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/inet_chksum.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/inet_chksum.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/inet_chksum.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/inet_chksum.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/inet_chksum.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/inet_chksum.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/inet_chksum.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/inet_chksum.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/inet_chksum.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/inet_chksum.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/inet_chksum.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/inet_chksum.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/inet_chksum.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/inet_chksum.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/inet_chksum.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ip.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ip.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/ip.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ip.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ip.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ip.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ip.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ip.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/ip.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ip.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ip.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/ip.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ip.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ip.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ip.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/ip.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ip.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/mem.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/mem.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/mem.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/mem.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/mem.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/mem.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/mem.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/mem.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/mem.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/mem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/mem.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/mem.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/mem.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/mem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/mem.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/mem.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/mem.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/memp.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/memp.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/memp.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/memp.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/memp.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/memp.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/memp.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/memp.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/memp.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/memp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/memp.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/memp.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/memp.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/memp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/memp.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/memp.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/memp.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/netif.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/netif.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/netif.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/netif.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/netif.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/netif.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/netif.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/netif.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/netif.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/netif.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/netif.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/netif.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/netif.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/netif.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/netif.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/netif.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/netif.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/pbuf.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/pbuf.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/pbuf.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/pbuf.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/pbuf.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/pbuf.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/pbuf.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/pbuf.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/pbuf.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/pbuf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/pbuf.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/pbuf.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/pbuf.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/pbuf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/pbuf.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/pbuf.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/pbuf.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/raw.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/raw.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/raw.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/raw.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/raw.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/raw.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/raw.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/raw.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/raw.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/raw.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/raw.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/raw.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/raw.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/raw.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/raw.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/raw.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/raw.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/stats.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/stats.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/stats.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/stats.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/stats.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/stats.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/stats.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/stats.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/stats.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/stats.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/stats.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/stats.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/stats.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/stats.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/stats.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/stats.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/stats.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/sys.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/sys.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/sys.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/sys.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/sys.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/sys.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/sys.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/sys.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/sys.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/sys.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/sys.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/sys.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/sys.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/sys.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/sys.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/sys.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/sys.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/altcp.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/altcp.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/altcp.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/altcp.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/altcp_alloc.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/altcp_alloc.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/altcp_alloc.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/altcp_alloc.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/altcp_tcp.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/altcp_tcp.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/altcp_tcp.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/altcp_tcp.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/tcp.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/tcp.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/tcp.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/tcp.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_in.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_in.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/tcp_in.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_in.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_in.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_in.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_in.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_in.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/tcp_in.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_in.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_in.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/tcp_in.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_in.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_in.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_in.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/tcp_in.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_in.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_out.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_out.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/tcp_out.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_out.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_out.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_out.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_out.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_out.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/tcp_out.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_out.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_out.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/tcp_out.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_out.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_out.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_out.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/tcp_out.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_out.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/timeouts.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/timeouts.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/timeouts.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/timeouts.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/timeouts.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/timeouts.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/timeouts.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/timeouts.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/timeouts.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/timeouts.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/timeouts.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/timeouts.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/timeouts.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/timeouts.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/timeouts.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/timeouts.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/timeouts.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/udp.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/udp.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/udp.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/udp.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/udp.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/udp.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/udp.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/udp.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/udp.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/udp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/udp.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/udp.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/udp.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/udp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/udp.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/udp.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/udp.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/autoip.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/autoip.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/autoip.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/etharp.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/etharp.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/etharp.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/icmp.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/icmp.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/icmp.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/igmp.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/igmp.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/igmp.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/acd.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/acd.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/acd.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/ipv4/acd.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/inet6.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/inet6.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/inet6.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/mld6.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/mld6.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/mld6.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o: /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o -c /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/nd6.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/nd6.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/core/ipv6/nd6.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_lib.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_lib.c.o: /Users/metta/pico-sdk/lib/lwip/src/api/api_lib.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_lib.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_lib.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_lib.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_lib.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_lib.c.o -c /Users/metta/pico-sdk/lib/lwip/src/api/api_lib.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_lib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_lib.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/api/api_lib.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_lib.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_lib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_lib.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/api/api_lib.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_lib.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_msg.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_msg.c.o: /Users/metta/pico-sdk/lib/lwip/src/api/api_msg.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_msg.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_msg.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_msg.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_msg.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_msg.c.o -c /Users/metta/pico-sdk/lib/lwip/src/api/api_msg.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_msg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_msg.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/api/api_msg.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_msg.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_msg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_msg.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/api/api_msg.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_msg.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/err.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/err.c.o: /Users/metta/pico-sdk/lib/lwip/src/api/err.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/err.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/err.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/err.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/err.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/err.c.o -c /Users/metta/pico-sdk/lib/lwip/src/api/err.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/err.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/err.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/api/err.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/err.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/err.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/err.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/api/err.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/err.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/if_api.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/if_api.c.o: /Users/metta/pico-sdk/lib/lwip/src/api/if_api.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/if_api.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/if_api.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/if_api.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/if_api.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/if_api.c.o -c /Users/metta/pico-sdk/lib/lwip/src/api/if_api.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/if_api.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/if_api.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/api/if_api.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/if_api.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/if_api.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/if_api.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/api/if_api.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/if_api.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netbuf.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netbuf.c.o: /Users/metta/pico-sdk/lib/lwip/src/api/netbuf.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netbuf.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netbuf.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netbuf.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netbuf.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netbuf.c.o -c /Users/metta/pico-sdk/lib/lwip/src/api/netbuf.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netbuf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netbuf.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/api/netbuf.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netbuf.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netbuf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netbuf.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/api/netbuf.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netbuf.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netdb.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netdb.c.o: /Users/metta/pico-sdk/lib/lwip/src/api/netdb.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netdb.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netdb.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netdb.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netdb.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netdb.c.o -c /Users/metta/pico-sdk/lib/lwip/src/api/netdb.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netdb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netdb.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/api/netdb.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netdb.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netdb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netdb.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/api/netdb.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netdb.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netifapi.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netifapi.c.o: /Users/metta/pico-sdk/lib/lwip/src/api/netifapi.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netifapi.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netifapi.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netifapi.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netifapi.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netifapi.c.o -c /Users/metta/pico-sdk/lib/lwip/src/api/netifapi.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netifapi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netifapi.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/api/netifapi.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netifapi.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netifapi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netifapi.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/api/netifapi.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netifapi.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/sockets.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/sockets.c.o: /Users/metta/pico-sdk/lib/lwip/src/api/sockets.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/sockets.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/sockets.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/sockets.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/sockets.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/sockets.c.o -c /Users/metta/pico-sdk/lib/lwip/src/api/sockets.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/sockets.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/sockets.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/api/sockets.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/sockets.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/sockets.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/sockets.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/api/sockets.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/sockets.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/tcpip.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/tcpip.c.o: /Users/metta/pico-sdk/lib/lwip/src/api/tcpip.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/tcpip.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/tcpip.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/tcpip.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/tcpip.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/tcpip.c.o -c /Users/metta/pico-sdk/lib/lwip/src/api/tcpip.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/tcpip.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/tcpip.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/api/tcpip.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/tcpip.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/tcpip.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/tcpip.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/api/tcpip.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/tcpip.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ethernet.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ethernet.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ethernet.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ethernet.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ethernet.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ethernet.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ethernet.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ethernet.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ethernet.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ethernet.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ethernet.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ethernet.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ethernet.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ethernet.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ethernet.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ethernet.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ethernet.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/slipif.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/slipif.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/slipif.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/slipif.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/slipif.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/slipif.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/slipif.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/slipif.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/slipif.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/slipif.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/slipif.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/slipif.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/slipif.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/slipif.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/slipif.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/slipif.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/slipif.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_common.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_common.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_common.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/zepif.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/zepif.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/zepif.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/zepif.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/zepif.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/zepif.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/zepif.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/zepif.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/zepif.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/zepif.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/zepif.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/zepif.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/zepif.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/zepif.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/zepif.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/zepif.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/zepif.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/auth.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/auth.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/auth.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/auth.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ccp.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ccp.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ccp.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/demand.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/demand.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/demand.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/demand.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eap.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eap.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eap.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eap.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ecp.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ecp.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ecp.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eui64.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eui64.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eui64.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/fsm.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/fsm.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/fsm.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/lcp.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/lcp.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/lcp.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/magic.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/magic.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/magic.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/magic.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/mppe.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/mppe.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/mppe.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/multilink.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/multilink.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/multilink.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ppp.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ppp.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ppp.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppos.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppos.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppos.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/upap.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/upap.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/upap.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/upap.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/utils.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/utils.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/utils.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/utils.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/vj.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/vj.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/vj.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/vj.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o: /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o -c /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: /Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o -c /Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: /Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o -c /Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: /Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o -c /Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: /Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o -c /Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: /Users/metta/pico-sdk/src/rp2_common/hardware_pio/pio.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pio/pio.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pio/pio.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -c /Users/metta/pico-sdk/src/rp2_common/hardware_pio/pio.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/src/rp2_common/hardware_pio/pio.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/src/rp2_common/hardware_pio/pio.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: /Users/metta/pico-sdk/src/rp2_common/hardware_dma/dma.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_dma/dma.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -c /Users/metta/pico-sdk/src/rp2_common/hardware_dma/dma.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_dma/dma.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/src/rp2_common/hardware_dma/dma.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_dma/dma.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/src/rp2_common/hardware_dma/dma.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: /Users/metta/pico-sdk/src/rp2_common/hardware_exception/exception.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_exception/exception.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_exception/exception.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_exception/exception.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_exception/exception.c.o -c /Users/metta/pico-sdk/src/rp2_common/hardware_exception/exception.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_exception/exception.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/src/rp2_common/hardware_exception/exception.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_exception/exception.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_exception/exception.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/src/rp2_common/hardware_exception/exception.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: /Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o -c /Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: /Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -c /Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/week10_integration.dir/flags.make
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: /Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/week10_integration.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o -MF CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o.d -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o -c /Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c > CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
-
-CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
-	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c -o CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
-
 # Object files for target week10_integration
 week10_integration_OBJECTS = \
 "CMakeFiles/week10_integration.dir/main.c.o" \
-"CMakeFiles/week10_integration.dir/encoder.c.o" \
-"CMakeFiles/week10_integration.dir/line.c.o" \
-"CMakeFiles/week10_integration.dir/motor.c.o" \
-"CMakeFiles/week10_integration.dir/imu.c.o" \
-"CMakeFiles/week10_integration.dir/mqtt_pico.c.o" \
 "CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" \
 "CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o" \
 "CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.o" \
@@ -2865,124 +1292,12 @@ week10_integration_OBJECTS = \
 "CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o" \
 "CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.o" \
 "CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_rand/rand.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/init.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/def.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/dns.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/inet_chksum.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ip.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/mem.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/memp.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/netif.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/pbuf.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/raw.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/stats.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/sys.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_in.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_out.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/timeouts.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/udp.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_lib.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_msg.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/err.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/if_api.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netbuf.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netdb.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netifapi.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/sockets.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/tcpip.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ethernet.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/slipif.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/zepif.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pio/pio.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_dma/dma.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_exception/exception.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.o" \
-"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o"
+"CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
 
 # External object files for target week10_integration
 week10_integration_EXTERNAL_OBJECTS =
 
 week10_integration.elf: CMakeFiles/week10_integration.dir/main.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/encoder.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/line.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/motor.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/imu.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/mqtt_pico.c.o
 week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2040/pico_platform/platform.c.o
@@ -3064,118 +1379,11 @@ week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/l
 week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/tusb.c.o
 week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
 week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/apps/mqtt/mqtt.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_rand/rand.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/init.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/def.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/dns.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/inet_chksum.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ip.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/mem.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/memp.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/netif.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/pbuf.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/raw.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/stats.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/sys.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_in.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/tcp_out.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/timeouts.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/udp.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_lib.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/api_msg.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/err.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/if_api.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netbuf.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netdb.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/netifapi.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/sockets.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/api/tcpip.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ethernet.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/slipif.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/zepif.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
-week10_integration.elf: CMakeFiles/week10_integration.dir/Users/metta/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
 week10_integration.elf: CMakeFiles/week10_integration.dir/build.make
 week10_integration.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 week10_integration.elf: /Users/metta/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 week10_integration.elf: CMakeFiles/week10_integration.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Linking CXX executable week10_integration.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/metta/pico-examples/build/embedded-proj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Linking CXX executable week10_integration.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/week10_integration.dir/link.txt --verbose=$(VERBOSE)
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-objdump -h /Users/metta/pico-examples/build/embedded-proj/build/week10_integration.elf > week10_integration.dis
 	/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-objdump -d /Users/metta/pico-examples/build/embedded-proj/build/week10_integration.elf >> week10_integration.dis
